@@ -4,7 +4,7 @@ import 'package:flutter_news_app/src/model/topheadlinesnews/response_top_headlin
 class ApiProvider {
   final Dio _dio = Dio();
   final String _baseUrl =
-      'https://newsapi.org/v2/top-headlines?country=id&apiKey=fc14ae62fff14511a901ad9537987354';
+      'https://newsapi.org/v2/top-headlines?country=hu&apiKey=de48ce07f2f5423ebc99d87ebe47c779';
 
   void printOutError(error, StackTrace stacktrace) {
     print('Exception occured: $error with stacktrace: $stacktrace');
